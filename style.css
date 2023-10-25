@@ -1,4 +1,70 @@
- /* Form CSS */
+
+/* Cards */
+
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(bg1.jpg) ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8px;
+    
+
+}
+.services-container h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.6rem;
+
+}
+.box {
+    /* border: 2px solid black; */
+    padding: 40px;
+    margin: 25px ;
+    border-radius: 15px;
+    /* background-color: #000000; */
+/* background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+    margin-bottom: 20px;
+    height: auto;
+    width: 300px;
+    
+    
+}
+.box text{
+    margin-top: 7px;
+    text-align: center;
+    align-items: center;
+}
+#services .box img::before {
+    content: "";
+    display: block;
+    height: 300px;
+    width: 300px;
+    /* margin: auto; */
+    background-size: cover;
+
+    z-index: -1;
+}
+#services .box img {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#services .box h2 {
+    position: relative;
+    /* top:-60px; */
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+
+
+
+/* Form CSS */
 
 .Inquiry-heading{
     text-align: center;
@@ -169,85 +235,7 @@ hr {
     text-align: center;
     font-family: cosmic,sans-serif;
 }
-.mainbg::before{
-    position: absolute;
-    content: "";
-    top: 0px;
-    left: 0px; 
 
- background: url("bgimg.jpg") no-repeat center center/cover;
-    width: 100%;
-    height: 700px;
-    z-index: 1;
-    opacity: 0.2; 
-}
-
-/* Style the navbar */
-.navbar {
-
-    margin: auto;
-    background-color: #0e0707; /* Darker background color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-}
-
-
-/* Style the navigation links */
-.nav-pages {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-pages li {
-    font-size: 18px;
-}
-
-.nav-pages a {
-    text-decoration: none;
-    color: #fff; /* White text color */
-    transition: color 0.3s; /* Smooth color transition */
-}
-
-.nav-pages a:hover {
-    color: #7f7c7c; /* Change color on hover */
-}
-/*  footer */
-.abt_contents{
-    font: 1.2rem;
-    color: white;
-}
-.heading{
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-}
-.mainsection{
-    position: relative;
-    margin: 2px auto;
-    display: flex;
-    margin: 122px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    height: 200px;
-    /* background: rgba( 93, 33, 33, 0.65 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 7.5px );
--webkit-backdrop-filter: blur( 7.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 ); */
-    
-}
-.mainbg{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .our_l{
     text-align: center;
     color: #7f7c7c;
