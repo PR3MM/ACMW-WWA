@@ -1,3 +1,55 @@
+ /* Form CSS */
+
+.Inquiry-heading{
+    text-align: center;
+    align-items: center;
+    font-size: 1.9rem;
+}
+#contact-box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-image: url(keys.jpg);
+    background-size: auto;
+    background-size: cover;
+    width: 1470px;
+    height: 1000px;
+    /* background-color: #000; */
+ }  
+ #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    /* border: 5px solid black; */
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25px;
+    padding: 25px;
+    /* background-color: #000000; */
+/* background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+    border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    margin: .3rem;
+    padding: .7rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    box-shadow: 0 0 25px 0px black;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+font-size: 1.7rem;
+
+} 
 
 body {
     margin: 0;
